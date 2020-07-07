@@ -1,3 +1,4 @@
+#This reads/parses a CSV with players in a file with data on their game score and game time on each game, following their names.
 import pandas as pd
 import numpy as np
 import csv
