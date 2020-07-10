@@ -4,6 +4,7 @@ import csv
 f = open('C:/Users/mgthe/OneDrive/Documents/game_scores.csv')
 csv_f = csv.reader(f)
 #Using the shorter more effective csv reading method
+
 def playerNameThatPlayedTheMostHours():
     #Phase 0 : Creating the variables
     max = 0.0
