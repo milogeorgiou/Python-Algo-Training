@@ -1,4 +1,9 @@
+###########################################################################
 #This is meant to add onto the already existing csv file with a new player.
+#ENVIRONMENT : Jupyter Python 3
+#Updated date: 16/07/2020
+###########################################################################
+
 #Creating a second DataFrame
 game_data2 = [    
     ["John", 0.9  , 9.0, "OnePiece"], 
