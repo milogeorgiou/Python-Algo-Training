@@ -12,3 +12,5 @@ game_data = pd.read_csv('C:/Users/mgthe/OneDrive/Documents/game_scores.csv')
 # ^^ Importing the CSV I will use for the later functions.
 game_data
 # ^^ Shows CSV when compiled
+#End of File#
+#############
