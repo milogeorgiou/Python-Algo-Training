@@ -1,5 +1,6 @@
 ###########################################################################################################
-#This function was intended to return the names of every time the player names come up inside the csv file.
+#SUMMARY : This is meant to find out all of the players who are inside of the csv file.
+#It should print them one by one, three per unique name.
 #ENVIRONMENT : Jupyter Python 3
 #Updated date: 16/07/2020
 ###########################################################################################################
@@ -23,6 +24,12 @@ game_data2 = [
 game_data2 = pd.DataFrame(game_data2, index = ["9", "10", "11"], columns =["Name", "Hours_Played", "Score", "Game"])
 game_data3=pd.concat([game_data, game_data2])
 
+##################################################################################################################################################
+#SUMMARY: This function was intended to return the names of every time the player names come up inside the csv file.
+#Parameters: None
+#Output : This will output the playernames row by row, the expected result would be every name three times
+##################################################################################################################################################
+
 def get_player_names ():
     #Creating the variable and making a loop for every player in the csv
     playernames=[]
@@ -36,4 +43,9 @@ def get_player_names ():
             playernames.append(game_data3.Name)
 		#This will simply return "The name's of the players are", followed by each player's name in consecution.
     return ("The name's of the players are", playernames)
+
+#Main Function#
+##################
 get_player_names()
+##################
+#End of file#
