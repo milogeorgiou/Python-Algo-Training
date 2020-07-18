@@ -53,4 +53,10 @@ def gameThatHasTheLeastHoursPlayed():
     #It then returns the game and the value
     return("The most played game is", game_min, "with", min, "hours")
 #The desired output is: "the least played game is diablo with 3.0 hours"
+##############
+#Main Function
+##############
 gameThatHasTheLeastHoursPlayed()
+############
+#End of file
+############
