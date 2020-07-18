@@ -10,7 +10,8 @@ csv_f = csv.reader(f)
 
 ##########################################################################################################
 # SUMMARY: I would like to display the game with the least amount of hours and display the hours aswell.
-# Parameters: None
+# Parameters: None 
+# OUTPUT: It should output "The least played game is Diablo with 3.0 hours"
 ##########################################################################################################
 
 def gameThatHasTheLeastHoursPlayed():
