@@ -44,8 +44,10 @@ def get_player_names ():
 		#This will simply return "The name's of the players are", followed by each player's name in consecution.
     return ("The name's of the players are", playernames)
 
+##################
 #Main Function#
 ##################
 get_player_names()
 ##################
 #End of file#
+##################
