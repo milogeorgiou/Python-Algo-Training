@@ -1,5 +1,10 @@
+############################################################################
+#SUMMARY:
 #This function is meant to get the name of every game in the csv file
 #And then print them one by one.
+#ENVIRONMENT: Jupyter Python 3
+#Updated date: 19/07/2020
+############################################################################
 
 import pandas as pd
 import numpy as np
@@ -28,5 +33,11 @@ def Get_Name_Of_Games():
             gamenames.append(game_data3.Game)
             #This will add the games to the array from the csv if they're not already in the array
     return ("Here are the names of the games played",gamenames)
+##############
+#Main Function
+##############
 Get_Name_Of_Games()
+#############
+#End of File
+#############
 #This will run the function printing every game row by row.
