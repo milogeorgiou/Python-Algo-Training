@@ -1,7 +1,6 @@
 #######################################################################################################################
 #SUMMARY:
-#This function is meant to 
-#
+#This function is meant to find out the game with the most hours accross all players rows
 #DATE : 15/07/2020
 #ENVIRONMENT : Jupyter Python 3.
 #######################################################################################################################
@@ -61,6 +60,8 @@ def gameThatHasTheMostHoursPlayed():
 
 ###############
 #Main function:
+###############
 gameThatHasTheMostHoursPlayed()
-###############################
+###############
 #End of file#
+###############
