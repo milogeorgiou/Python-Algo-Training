@@ -24,7 +24,7 @@ game_data3=pd.concat([game_data, game_data2])
 ########################################################################################################################
 #SUMMARY: This will take every score from the rows of the csv file and create an average score from all of the players.
 #Parameters: None
-#Output: "The average scores from all players across all games is 
+#Output: "The average scores from all players across all games is 12"
 ########################################################################################################################
 
 def getAverageScoreFromAllPlayers ():
